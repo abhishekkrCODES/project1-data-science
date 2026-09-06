@@ -2,7 +2,28 @@
 
 **Completion Rule:** Complete the 5 tasks below.
 <hr>
----
+
+## TASK 1 · Iris Flower Classification
+
+**Objective:** Train a machine learning classification model to identify the species of an iris flower (Setosa, Versicolor, or Virginica) from its physical measurements.
+
+**Tech Stack:** Python, scikit-learn, pandas, matplotlib/seaborn, Jupyter Notebook
+
+**Feature Checklist:**
+
+- [ ] Load the Iris dataset (available directly from `sklearn.datasets.load_iris()` — no download required)
+- [ ] Perform **Exploratory Data Analysis (EDA)**: shape, dtypes, null value check, descriptive statistics
+- [ ] Visualisations: pairplot or scatter matrix showing feature distributions by species; box plots for each feature
+- [ ] **Feature selection discussion**: which features are most discriminative?
+- [ ] Train/test split (typically 80/20) using `train_test_split`
+- [ ] Train at least **2 different classifiers** (e.g., Logistic Regression, K-Nearest Neighbours, Decision Tree, Random Forest)
+- [ ] Evaluate each model: accuracy score, confusion matrix, classification report (precision, recall, F1)
+- [ ] Identify and declare the best-performing model with justification
+- [ ] All code in a clean, commented Jupyter Notebook
+
+**Self-Sourcing Guideline:** The dataset is built into scikit-learn — no external download needed. Search **"Iris flower classification Python scikit-learn tutorial"** on YouTube for an end-to-end walkthrough. Reference the **scikit-learn User Guide** (scikit-learn.org) for model-specific documentation. For visualisations, search **"seaborn pairplot tutorial"**.
+<hr>
+
 ## TASK 2 · Unemployment Analysis with Python
 
 **Objective:** Perform exploratory data analysis on unemployment data to uncover regional and temporal trends, with a focus on the impact of the COVID-19 pandemic on unemployment rates in India.
@@ -23,7 +44,7 @@
 
 **Self-Sourcing Guideline:** Search **"unemployment rate India dataset"** on Kaggle.com (create a free account). The dataset titled **"Unemployment in India"** is publicly available there. Search **"pandas time series analysis tutorial"** and **"seaborn heatmap tutorial"** on YouTube for the core visualisation patterns.
 <hr>
----
+
 ## TASK 3 · Car Price Prediction with Machine Learning
 
 **Objective:** Build a regression model that predicts the selling price of a used car based on features such as brand, age, mileage, fuel type, and transmission.
@@ -46,7 +67,7 @@
 
 **Self-Sourcing Guideline:** Search **"car price prediction dataset"** on Kaggle.com. A widely used dataset is **"Vehicle dataset from cardekho"** — it is publicly available and well-suited for this task. Search **"car price prediction Python machine learning tutorial"** on YouTube for guidance.
 <hr>
----
+
 ## TASK 4 · Email Spam Detection with Machine Learning
 
 **Objective:** Build a Natural Language Processing (NLP) binary classifier that distinguishes spam emails from legitimate (ham) emails.
@@ -68,7 +89,7 @@
 
 **Self-Sourcing Guideline:** Search **"SMS spam collection dataset"** on Kaggle.com or the UCI Machine Learning Repository (archive.ics.uci.edu) — both host this classic dataset for free. Search **"email spam detection Python NLP tutorial scikit-learn"** on YouTube. Reference the NLTK documentation (nltk.org) for text preprocessing.
 <hr>
----
+
 ## TASK 5 · Sales Prediction Using Python
 
 **Objective:** Build a regression model that predicts product sales based on advertising spend across different media channels (TV, Radio, Newspaper).
